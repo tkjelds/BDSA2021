@@ -6,8 +6,7 @@ namespace assignment0
     {
         public static void Main(string[] args)
         {
-            var Program = new Program();
-            Program.YayOrNay();
+            Console.WriteLine("Hello, World!");
         }
 
         public bool IsLeapYear(int year) {
