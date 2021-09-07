@@ -4,6 +4,7 @@ namespace assignment0
 {
     public class Program
     {
+
         public static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");
@@ -21,10 +22,8 @@ namespace assignment0
             }
         }
 
-        public void YayOrNay(){
-            Console.WriteLine("Please enter a year");
-
-            string yearString = Console.ReadLine();
+        public void YayOrNay(string yearString){
+            //Console.WriteLine("Please enter a year");
 
             int year;
 

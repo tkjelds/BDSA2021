@@ -6,6 +6,7 @@ namespace assignment0.tests
 {
     public class ProgramTests
     {
+
         [Fact]
         public void Main_prints_Hello_World()
         {
@@ -32,7 +33,7 @@ namespace assignment0.tests
             var actual = Program.IsLeapYear(year);
 
             //Then
-            Assert.Equal(actual,expected);
+            Assert.Equal(expected,actual);
         }
 
         [Fact]
@@ -45,7 +46,7 @@ namespace assignment0.tests
         //When
             var actual = Program.IsLeapYear(year);
         //Then
-            Assert.Equal(actual,expected);
+            Assert.Equal(expected,actual);
         }
         [Fact]
         public void Leap_Year_returns_true_given_great_leap_year()
@@ -57,7 +58,55 @@ namespace assignment0.tests
         //When
             var actual = Program.IsLeapYear(year);
         //Then
-            Assert.Equal(actual,expected);
+            Assert.Equal(expected,actual);
+        }
+
+        [Fact]
+        public void YayOrNay_given_400(){
+            //Given
+            var program = new Program(); 
+            var yearString = "400"; 
+            var writer = new StringWriter();
+            Console.SetOut(writer);
+            var expected = "Yay";
+            // act
+            program.YayOrNay(yearString);
+            var actual = writer.GetStringBuilder().ToString().Trim();
+            //Then
+
+            Assert.Equal(expected,actual);
+        }
+        
+        [Fact]
+        public void YayOrNay_given_abcd_fails_conversions()
+        {
+        //Given
+        var program = new Program();
+        var year = "abcd";
+        var writer = new StringWriter();
+        Console.SetOut(writer);
+        var expected = "Failed conversion of: abcd";
+        //When
+        program.YayOrNay(year);
+        var actual = writer.GetStringBuilder().ToString().Trim();
+        //Then
+        Assert.Equal(expected,actual);
+        }
+
+        [Fact]
+        public void YayOrNay_given_100_returns_Nay()
+        {
+        //Given
+        var program = new Program();
+        var year = "100";
+        var writer = new StringWriter();
+        Console.SetOut(writer);
+        var expected = "Nay";
+        //When
+        program.YayOrNay(year);
+        var actual = writer.GetStringBuilder().ToString().Trim();
+        //Then
+        Assert.Equal(expected,actual);
         }
     }
 }
