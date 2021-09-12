@@ -35,7 +35,13 @@ namespace Assignment1
 
         public static IEnumerable<string> InnerText(string html, string tag)
         {
-            throw new NotImplementedException();
+            var pattern = @"(<" + tag + @".*?>)(?<string>\w.*?)(</" +tag +">)";
+            var rx = new Regex(pattern);
+            var match = rx.Match(html);
+            while(match.Success){
+                yield return match.Groups["string"].Value;
+                match = match.NextMatch();
+            }
         }
     }
 }
