@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1632298630 "/Users/torekjelds/Documents/ITU/BDSA2021/BDSA2021/assignment2/latex/assignment2.tex" "/Users/torekjelds/Documents/ITU/BDSA2021/BDSA2021/assignment2/latex/assignment2.pdf" "assignment2" 1632298630
-  "/Users/torekjelds/Documents/ITU/BDSA2021/BDSA2021/assignment2/latex/assignment2.aux" 1632298630 32 3985256e7290058c681f74d7a3565a19 ""
-  "/Users/torekjelds/Documents/ITU/BDSA2021/BDSA2021/assignment2/latex/assignment2.tex" 1632298629 151 eb716e7c361af0fa96ff87ed8d1ee5b4 ""
+["pdflatex"] 1632305385 "/Users/torekjelds/Documents/ITU/BDSA2021/BDSA2021/assignment2/latex/assignment2.tex" "/Users/torekjelds/Documents/ITU/BDSA2021/BDSA2021/assignment2/latex/assignment2.pdf" "assignment2" 1632305385
+  "/Users/torekjelds/Documents/ITU/BDSA2021/BDSA2021/assignment2/latex/assignment2.aux" 1632305385 32 3985256e7290058c681f74d7a3565a19 ""
+  "/Users/torekjelds/Documents/ITU/BDSA2021/BDSA2021/assignment2/latex/assignment2.tex" 1632305385 150 5942e6d13aa37594008070992671b81d ""
   "/usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1136768653 1524 4414a8315f39513458b80dfc63bff03a ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1136768653 1512 f21f83efb36853c0b70002322c1ab3ad ""
@@ -23,11 +23,11 @@
   "/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1616695603 5169178 a2ce6e2d73f603b690db6777d06dbccb ""
   "/usr/local/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1632229826 2724744 c828859599a2b2182078eead576b0e0c ""
   "/usr/local/texlive/2021/texmf.cnf" 1616695596 577 4c1911a7228e554c6032256d3cf5567d ""
-  "assignment2.aux" 1632298630 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
-  "assignment2.tex" 1632298629 151 eb716e7c361af0fa96ff87ed8d1ee5b4 ""
+  "assignment2.aux" 1632305385 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "assignment2.tex" 1632305385 150 5942e6d13aa37594008070992671b81d ""
   (generated)
-  "assignment2.aux"
-  "/Users/torekjelds/Documents/ITU/BDSA2021/BDSA2021/assignment2/latex/assignment2.pdf"
-  "/Users/torekjelds/Documents/ITU/BDSA2021/BDSA2021/assignment2/latex/assignment2.log"
   "assignment2.pdf"
   "assignment2.log"
+  "/Users/torekjelds/Documents/ITU/BDSA2021/BDSA2021/assignment2/latex/assignment2.pdf"
+  "/Users/torekjelds/Documents/ITU/BDSA2021/BDSA2021/assignment2/latex/assignment2.log"
+  "assignment2.aux"
